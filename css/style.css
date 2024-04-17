@@ -1,0 +1,98 @@
+/*font-family start*/
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto&display=swap');
+/*font-family start*/
+body{
+}
+/*header start*/
+  header{
+    padding: 20px 0;
+    background-color: #F9FCFF;
+  }
+  .c_nav{}
+  .logo{}
+  .menu{
+  }
+  .menu ul{
+    margin: 0 !important;
+    padding: 0 213px;
+  }
+  .menu ul li a{
+    padding: 0 40px 0 0 !important;
+    font-family:'PT Sans';
+    font-size: 20px;
+    font-weight: 400;
+    Line height:25.2px;
+    color: #1A2434;
+
+  }
+  .care {
+    padding:0 0 0 8px !important;
+  }
+  .menu ul li:last-child  a{
+    padding-right: 0 !important;
+  }
+  .s_b{
+    width: 23px;
+    height: 23px;
+  }
+ .sear {
+  margin: 0 0 0 16px;
+  padding: 16px 80px 16px 16px;
+  width: 255px;
+  height: 55px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+ }
+/*header end*/
+/*draggable*/
+  #draggable { margin-top: 100px; width: 150px; height: 150px; padding: 0.5em; background: plum;}
+  .women{ width: 150px; height: 150px; padding: 0.5em; background: #F9FCFF;}
+/*draggable*/
+/*tooltips_f*/
+ label {
+    display: inline-block; width: 5em;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  fieldset .help {
+    display: inline-block;
+  }
+  .ui-tooltip {
+    width: 210px;
+  }
+/*tooltips_f*/
+/*toggler*/
+   .toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 190px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+/*toggler*/
+/*draggable*/
+  #drag3, #drag3_2, #drag3_3 { width: 120px; height: 120px; padding: 0.5em; float: left; margin: 0 10px 10px 0; background: greenyellow; color: white;}
+/*draggable*/
+/*toggl_2*/
+  .toggl_2 { width: 500px; height: 200px; position: relative; }
+  #effect_2 { padding: .5em 1em; text-decoration: none; }
+  #effect_1 { margin-top: 120px; width: 240px;  padding: 1em; border: 1px solid #000; background: #eee; color: #333; }
+  .newClass { text-indent: 40px; letter-spacing: .4em; width: 410px; height: 120px; padding: 30px; margin: 10px; font-size: 1.1em; }
+/*toggl_2*/
+/*sortable*/
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 450px; }
+  #sortable li { margin: 3px 3px 3px 0; padding: 1px; float: left; width: 100px; height: 90px; font-size: 4em; text-align: center; }
+/*sortable*/
+/*sortable_2*/
+  #sortable_2 { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable_2 li { margin: 0 5px 5px 5px; padding: 5px; font-size: 1.2em; height: 1.5em; }
+  html>body #sortable_2 li { height: 1.5em; line-height: 1.2em; }
+  .ui-state-highlight { height: 1.5em; line-height: 1.2em; }
+/*sortable_2*/
+/*sortable_3*/
+  #sortable1, #sortable2, #sortable3 { list-style-type: none; margin: 0; float: left; margin-right: 10px; background: #eee; padding: 5px; width: 143px;}
+  #sortable1 li, #sortable2 li, #sortable3 li { margin: 5px; padding: 5px; font-size: 1.2em; width: 120px; }
+/*sortable_3*/
+/*menu*/
+  .ui-menu { width: 150px; }
+/*menu*/
